@@ -17,7 +17,7 @@ public class Main{
         System.out.println(sim.evaluateLight(0, 3));
         System.out.println(sim.evaluateLight(6,0));
         System.out.println(sim.evaluateLight(4, 1));
-        System.out.println(sim.evaluateLight(5,4));
+        System.out.println(sim.evaluateLight(5, 4));
 
 
 

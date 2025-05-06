@@ -23,10 +23,11 @@ public class LightBoard{
     public boolean evaluateLight(int row, int col){
         boolean light = lights[row][col];
         int colLights = 0;
-        for(int r = 0; r< lights.length; r++){
-            if(lights[r][col] == true) colLights++;
+        for(int r = 0; r < lights.length; r++){
+            if(lights[r][col]) colLights++;
             if(light && colLights % 2 == 0) return false;
             if(!light && colLights % 3 == 0) return true;
+            return light;
         }
         return light;
 
